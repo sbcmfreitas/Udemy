@@ -1,0 +1,14 @@
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\bin\Release\netcoreapp2.1\RestWithASPNETUdemy.deps.json
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\bin\Release\netcoreapp2.1\RestWithASPNETUdemy.runtimeconfig.json
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\bin\Release\netcoreapp2.1\RestWithASPNETUdemy.runtimeconfig.dev.json
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\bin\Release\netcoreapp2.1\RestWithASPNETUdemy.dll
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\bin\Release\netcoreapp2.1\RestWithASPNETUdemy.pdb
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.csproj.CoreCompileInputs.cache
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.RazorAssemblyInfo.cache
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.RazorAssemblyInfo.cs
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.AssemblyInfoInputs.cache
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.AssemblyInfo.cs
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.RazorTargetAssemblyInfo.cache
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.dll
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.pdb
+C:\Users\mrfreitas\Desktop\NET\Projects\Udemy\RestWithASPNETUdemy01  - Calculator\RestWithASPNETUdemy\obj\Release\netcoreapp2.1\RestWithASPNETUdemy.csprojAssemblyReference.cache
