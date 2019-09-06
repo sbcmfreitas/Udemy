@@ -13,8 +13,6 @@ namespace RestWithASPNETUdemy.Service.Implementation
 
         private PgContext _context;
 
-        private volatile int count;
-
         public PersonServiceImpl(PgContext context)
         {
             _context = context;
@@ -40,22 +38,17 @@ namespace RestWithASPNETUdemy.Service.Implementation
         public bool Delete(long id)
         {
 
-            if (!Exist(id))
-            {
-                throw new System.ArgumentException("Parameter cannot be null", "person.Id");
-            }
-
             var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
 
 
-            if (result!=null)
+            if (result==null)
             {
-                throw new System.ArgumentException("Person not exist for id", id.ToString());
+                throw new PersonNotFoundException();
             }
 
             try
             {
-                if(result!=null) _context.Persons.Remove(result);
+                _context.Persons.Remove(result);
                 _context.SaveChanges();
             }
             catch (Exception e)
@@ -64,64 +57,34 @@ namespace RestWithASPNETUdemy.Service.Implementation
 
             }
 
-            return id>0;
+            return true;
         }
 
         public List<Person> FindAll()
         {
-
-            List<Person> personList = new List<Person>();
-            for(int i=0; i < 8; i++)
-            {
-                Person person = MockPerson(i);
-                personList.Add(person);
-            }
-            return personList;
+            return _context.Persons.ToList();
         }
 
-        private Person MockPerson(int i)
-        {
-            return new Person
-            {
-                Id = IncrementAndGet(),
-                FisrtName = "Person Name "+i,
-                LastName = "Person Last Name " + i,
-                Gender = "Some Gender " + i,
-            };
-        }
 
-        private long IncrementAndGet()
-        {
-            
-            return Interlocked.Increment(ref count);
-        }
 
         public Person FindById(long id)
         {
-            return new Person { 
-                      Id = id,
-               FisrtName = "Marcos",
-                LastName = "Freitas",
-                Gender = "Taubaté"
-            };
+            return _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
         }
 
         public Person Update(Person person)
         {
             if (!Exist(person.Id))
             {
-                throw new System.ArgumentException("Parameter cannot be null", "person.Id");
+                throw new PersonNotFoundException();
             }
+
+            Console.WriteLine(person);
 
             var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(person.Id));
 
-            if (result == null)
-            {
-                throw new System.ArgumentException("Person not exist for id", person.Id.ToString() );
-            }
-
             try
-            {
+            {   
                 _context.Entry(result).CurrentValues.SetValues(person);
                 _context.SaveChanges();
             }

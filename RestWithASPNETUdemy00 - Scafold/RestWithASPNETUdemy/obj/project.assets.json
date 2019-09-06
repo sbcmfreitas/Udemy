@@ -11805,11 +11805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrfreitas\\Desktop\\NET\\Projects\\Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+      "projectUniqueName": "C:\\Users\\mrfreitas\\Desktop\\NET\\Projects\\Udemy\\RestWithASPNETUdemy00 - Scafold\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
       "projectName": "RestWithASPNETUdemy",
-      "projectPath": "C:\\Users\\mrfreitas\\Desktop\\NET\\Projects\\Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+      "projectPath": "C:\\Users\\mrfreitas\\Desktop\\NET\\Projects\\Udemy\\RestWithASPNETUdemy00 - Scafold\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
       "packagesPath": "C:\\Users\\mrfreitas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrfreitas\\Desktop\\NET\\Projects\\Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\obj\\",
+      "outputPath": "C:\\Users\\mrfreitas\\Desktop\\NET\\Projects\\Udemy\\RestWithASPNETUdemy00 - Scafold\\RestWithASPNETUdemy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

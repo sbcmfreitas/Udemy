@@ -4,7 +4,9 @@ using RestWithASPNETUdemy.Service.Implementation;
 
 namespace RestWithASPNETUdemy.Controllers
 {
-    [Route("api/[controller]")]
+
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class PersonsController : ControllerBase
     {
@@ -41,7 +43,7 @@ namespace RestWithASPNETUdemy.Controllers
             return new ObjectResult(_personService.Create(person));
         }
 
-        // PUT api/persons/5
+        // PUT api/persons
         [HttpPut]
         public IActionResult Put([FromBody] Person person)
         {

@@ -27,6 +27,8 @@ namespace RestWithASPNETUdemy
  
             services.AddMvc();
 
+            services.AddApiVersioning();
+
             services.AddScoped<IPersonService, PersonServiceImpl>();
         }
 
